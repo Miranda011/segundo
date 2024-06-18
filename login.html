@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="js/script.js"></script>
 </head>
@@ -20,15 +21,19 @@
             <a href="contato.html">contato</a>
         </div>
     </div>
-    <div class="banner">
-    <img src="icons/banner.png" alt="">
-    </div>
-    <div class="tenisinicial">
-        <a href="air-force-verde.html" class="tenis1"><img src="icons/verde sem fundo lado.png" alt=""></a>
-        <a href="dunk-vermelho.html" class="tenis2"><img src="icons/dunk vermelho lado.png" alt=""></a>
-        <a href="air-force.html" class="tenis3"><img src="icons/air force de lado.png" alt=""></a>
-        <a href="air-max.html" class="tenis4"><img src="icons/airmax de lado.png" alt=""></a>
-    </div>
+        <div class="login">
+            <form action="">
+                <p class="login-informe">Informe CPF, CNPJ ou E-mail</p>
+                <input type="text" name="Nome" id="Nome" placeholder="CPF, CNPJ ou E-mail" required>
+                <p class="login-senha">Informe sua senha</p>
+                <input type="password" name="Senha" id="Senha" placeholder="Digite a Sua Senha" required>
+                <label for="Lembrar">
+                <input type="checkbox" name="Lembrar" id="Lembrar">
+                 Mantenha-me conectato</label>
+                 <input type="submit" value="Fazer Login">
+                 <a href="#" class="esqueci-senha">esqueci minha senha</a>
+            </form>
+        </div>    
     <footer>
         <p>&copy; 2024 kaio miranda. Todos os direitos reservados.</p>
         <p class="footer-links">

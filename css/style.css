@@ -1,3 +1,8 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}    */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,6 +16,12 @@ body {
     position: relative;
     top: -40px;
     height: 100px;
+}
+.perfil-de-usuario img{
+    position: relative;
+    left: 83%;
+    top: -75px;
+    height: 25px;
 }
 i{
     position: absolute;
@@ -56,12 +67,14 @@ i{
     background-color: #333333;
 }
 
-.banner{
+.banner img{
     position: relative;
     display: flex;
-    top: 10px;
+    height: 250px;
+    width: 1290px;
+    top: 90px;
     border-radius: 50px;
-    left: 5px;
+    left: 35px;
 }
 .tenis1 img{
     height: 250px;
@@ -100,8 +113,9 @@ footer {
 }
 
 footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    top: -10px;
+    top: -15px;
 }
 
 .footer-links {
@@ -124,16 +138,6 @@ footer p{
     display: inline-block;
 }
 /* site todo acaba aqui*/
-
-.banner img{
-    position: relative;
-    top: 70px;
-    border-radius: 50px;
-    height: 200px;
-    width: 1300px;
-    z-index: 1;
-    left: 20px;
-}
 .tenis1 img{
     height: 250px;
     position: relative;
@@ -537,3 +541,32 @@ footer p{
     width: 700px;
     word-wrap: break-word;
  }
+ /* login acaba aqui */
+ 
+ .contato{
+    position: relative;
+    top: 130px;
+    left: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #fafafa80;
+    background-color: #fafafa40;
+    border-radius: 8px;
+    padding: 24px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 8px #24242480;
+ }
+form{
+    
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.contato-text{
+    position: relative;
+    left: 25px;
+}
