@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="icons/logo com fundo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
 </head>
+
 <body>
     <div class="menu-container">
         <img src="icons/logo sem fundo.png" alt="" class="logo">
@@ -21,42 +23,80 @@
             <a href="contato.html">contato</a>
         </div>
     </div>
-    <h1 class="textocompras">DUNK LOW</h1>
-    <img src="icons/dunk vermelho lado.png" alt="tenis verde" class="teniscompras">
-    <img src="icons/dunk vermelho atras.png" alt="" class="tenisatras">
-    <img src="icons/dunk vermelho diagonal.png" alt="" class="tenisdiagonal">
-    <img src="icons/dunk vermelho lado.png" alt="" class="tenislado">
-    <div class="divcomprar">
-        <h1 class="comprar">DUNK LOW</h1>
-        <p class="promocao">R$999,90</p>
-        <p class="preco"> R$ 799,92 no Pix</p>
-        <p class="parcela">ou 6x de R$ 133,32 sem juros</p>
-            <p class="cor">cor do produto</p>
-            <div>
-                <img src="img/tenis vermelho.png" alt="" class="imgvt1">
-                <img src="img/dunk preto 2.png" alt="" class="imgvt2">
-                <img src="img/dubk cinza.png" alt="" class="imgvt3">
+
+    <div class="tenis">
+
+        <div class="foto">
+            <div class="fotoPequena">
+                <div class="fotos" onmouseover="trocaFoto('dunk-verm-1.png')">
+                    <img src="icons/dunk-verm-1.png" alt="">
+                </div>
+                <div class="fotos" onmouseover="trocaFoto('dunk-verm-2.png')">
+                    <img src="icons/dunk-verm-2.png" alt="">
+                </div>
+                <div class="fotos" onmouseover="trocaFoto('dunk-verm-3.png')">
+                    <img src="icons/dunk-verm-3.png" alt="">
+                </div>
             </div>
-        <p class="tamanho">tamanho do produto</p>
-        <div class="numerotaamanho">
-            <p>41</p>
-            <p>42</p> 
-            <p>43</p>
-            <p>44</p>
+            <div class="fotoGrande">
+                <img src="icons/dunk-verm-1.png" alt="tenis verde" id="tenisGrande">
+            </div>
         </div>
-        <a href=""><button class="comprarb">comprar agora</button></a>
-        <a href=""><button class="adicionarc">adicionar ao carrinho</button></a>
+
+
+        <div class="comprar">
+            <h1>DUNK LOW</h1>
+            <h2>R$999,90</h2>
+            <p class="pix">R$ 799,92 no Pix</p>
+            <p class="parcela">ou 6x de R$ 133,32 sem juros</p>
+            <h3>Cores disponíveis</h3>
+            <div class="cores">
+                <div class="cor">
+                    <img src="img/tenis vermelho.png" alt="">
+                </div>
+                <div class="cor">
+                    <img src="img/dunk preto 2.png" alt="">
+                </div>
+                <div class="cor">
+                    <img src="img/dubk cinza.png" alt="">
+                </div>
+            </div>
+            <h4>Tamanhos:</h4>
+            <div class="tamanho">
+                <input type="radio" name="tam" id="36">
+                <label for="36">36</label>
+                <input type="radio" name="tam" id="38">
+                <label for="38">38</label>
+                <input type="radio" name="tam" id="39">
+                <label for="39">39</label>
+                <input type="radio" name="tam" id="40">
+                <label for="40">40</label>
+                <input type="radio" name="tam" id="41">
+                <label for="41">41</label>
+                <input type="radio" name="tam" id="42">
+                <label for="42">42</label>
+                <input type="radio" name="tam" id="43">
+                <label for="43">43</label>
+                <input type="radio" name="tam" id="44">
+                <label for="44">44</label>
+            </div>
+            <button class="carrinho">Adicionar ao Carrinho</button>
+            <button class="comprarAgora">Comprar agora</button>
+        </div>
+
     </div>
+
 
 
     <footer>
         <p>&copy; 2024 kaio miranda. Todos os direitos reservados.</p>
         <p class="footer-links">
-            <a href="politicas-de-privacidade.html">Políticas de Privacidade</a> | 
+            <a href="politicas-de-privacidade.html">Políticas de Privacidade</a> |
             <a href="termos-de-uso.html">Termos de Uso</a>
         </p>
     </footer>
 
-    
+
 </body>
+
 </html>

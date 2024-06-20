@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}   
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,22 +13,26 @@ body {
     min-height: 100vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.logo{
+
+.logo {
     position: relative;
     top: -40px;
     height: 100px;
 }
-.perfil-de-usuario img{
+
+.perfil-de-usuario img {
     position: relative;
     left: 87%;
     top: -70px;
     height: 25px;
 }
-i{
+
+i {
     position: absolute;
     left: 93%;
     top: 10px;
 }
+
 .menu-container {
     position: fixed;
     display: inline-block;
@@ -36,7 +41,6 @@ i{
     height: 60px;
     width: 100%;
     z-index: 3;
-
 }
 
 #menu-icon {
@@ -52,7 +56,7 @@ i{
     display: none;
     position: absolute;
     background-color: #33333380;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     left: 93%;
     top: 50px;
@@ -70,7 +74,7 @@ i{
     background-color: #333333;
 }
 
-.banner img{
+.banner img {
     position: relative;
     display: flex;
     height: 250px;
@@ -79,30 +83,34 @@ i{
     border-radius: 50px;
     left: 35px;
 }
-.tenis1 img{
+
+.tenis1 img {
     height: 250px;
     position: relative;
     left: 75px;
-    top: 70px;;
+    top: 70px;
+    ;
 }
-.tenis2 img{
+
+.tenis2 img {
     height: 170px;
     position: relative;
     left: 370px;
     top: 35px;
 }
 
-.tenis3 img{
+.tenis3 img {
     height: 250px;
     position: relative;
     top: 430px;
 }
 
-.tenis4 img{
+.tenis4 img {
     height: 150px;
     position: relative;
     left: 120px;
 }
+
 footer {
     position: fixed;
     background-color: #e00908;
@@ -115,7 +123,7 @@ footer {
     top: 94%;
 }
 
-footer p{
+footer p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -138,69 +146,81 @@ footer p{
     text-decoration: underline;
     display: inline-block;
 }
+
+
 /* site todo acaba aqui*/
-.tenis1 img{
+
+.tenis1 img {
     height: 250px;
     position: relative;
     left: 270px;
-    top: 20px;;
+    top: 20px;
+    ;
 }
-.tenis2 img{
+
+.tenis2 img {
     height: 270px;
     position: relative;
     left: 470px;
     top: 35px;
 }
 
-.tenis3 img{
+.tenis3 img {
     height: 250px;
     position: relative;
     top: 290px;
     right: 260px;
 }
 
-.tenis4 img{
+.tenis4 img {
     height: 270px;
     position: relative;
     left: -50px;
     top: 300px;
 }
+
+
 /* paginia inicial acaba aqui */
 
-.teniscompras{
+
+/* .teniscompras {
     position: relative;
     left: 240px;
     top: 140px;
     height: 350px;
     width: 350px;
 }
-.tenisatras{
+
+.tenisatras {
     position: relative;
     top: -200px;
     height: 200px;
     width: 200px;
 }
-.tenisdiagonal{
+
+.tenisdiagonal {
     position: relative;
     top: -300px;
     height: 200px;
     width: 200px;
 }
-.tenislado{
+
+.tenislado {
     position: relative;
     top: -380px;
     left: 20px;
     height: 200px;
     width: 200px;
-}
-.textocompras{
+} */
+
+.textocompras {
     position: absolute;
     font-size: 25px;
     left: 270px;
     top: 180px;
 }
 
-.divcomprar{
+.divcomprar {
     position: absolute;
     border: 1px solid black;
     height: 400px;
@@ -210,42 +230,23 @@ footer p{
     border-radius: 20px;
     background-color: #D9D9D920;
 }
-.comprar{
-    position: absolute;
-    left: 35px;
-    top: 40px;
-    font-size: 20px;
-}
-.promocao{
+
+.promocao {
     color: #4CAF5095;
     text-decoration: line-through;
     font-size: 20px;
     margin-left: 40px;
     margin-top: 70px;
 }
-.preco{
+
+.preco {
     color: red;
     font-style: italic;
     margin-left: 36px;
     margin-top: -2px;
 }
-.parcela{
-    position: relative;
-    margin-left: 36px;
-    font-size: 17px;
-    top: 5px;
-    color: #00000080;
-}
-.cor{
-    margin-top: 2px;
-    margin-left: 36px;
-}
-.tamanho{
-    position: relative;
-    margin-left: 36px;
-    margin-top: 20px;
-}
-.numerotaamanho p{
+
+.numerotaamanho p {
     position: relative;
     font-size: 20px;
     left: 40px;
@@ -253,7 +254,8 @@ footer p{
     border: 1px solid black;
     display: inline;
 }
-.comprarb{
+
+.comprarb {
     background-color: #00FF1A;
     padding: 10px 40px;
     text-align: center;
@@ -264,7 +266,8 @@ footer p{
     margin-top: 30px;
     left: 270px;
 }
-.adicionarc{
+
+.adicionarc {
     right: 30px;
     background-color: #D9D9D9;
     padding: 10px 40px;
@@ -275,13 +278,17 @@ footer p{
     position: absolute;
     margin-top: 80px;
 }
+
+
 /* compras acaba aqui */
-.produtos1 img{
+
+.produtos1 img {
     position: relative;
     left: 30px;
     height: 250px;
 }
-.produtos1{
+
+.produtos1 {
     position: relative;
     border: 1px solid black;
     width: 300px;
@@ -291,17 +298,20 @@ footer p{
     border-radius: 15px;
     background-color: #D9D9D980;
 }
-.produtos1 h2{
+
+.produtos1 h2 {
     position: relative;
     left: 50px;
 }
-.produtos1 h4{
+
+.produtos1 h4 {
     position: relative;
     left: 50px;
     top: -10px;
     color: #e00908;
 }
-.produtos1 button{
+
+.produtos1 button {
     top: -5px;
     position: relative;
     font-size: 20px;
@@ -309,13 +319,15 @@ footer p{
     border-radius: 10px;
     background-color: #00FF1A;
 }
-.produtos2 img{
+
+.produtos2 img {
     position: relative;
     left: 40px;
     top: -1px;
     height: 250px;
 }
-.produtos2{
+
+.produtos2 {
     border: 1px solid black;
     height: 400px;
     width: 300px;
@@ -325,17 +337,20 @@ footer p{
     border-radius: 15px;
     background-color: #D9D9D980;
 }
-.produtos2 h2{
+
+.produtos2 h2 {
     position: relative;
     left: 50px;
 }
-.produtos2 h4{
+
+.produtos2 h4 {
     position: relative;
     left: 50px;
     top: -10px;
     color: #e00908;
 }
-.produtos2 button{
+
+.produtos2 button {
     top: -10px;
     position: relative;
     font-size: 20px;
@@ -343,7 +358,8 @@ footer p{
     border-radius: 10px;
     background-color: #00FF1A;
 }
-.produtos3{
+
+.produtos3 {
     border: 1px solid black;
     height: 400px;
     width: 300px;
@@ -353,24 +369,28 @@ footer p{
     border-radius: 15px;
     background-color: #D9D9D980;
 }
-.produtos3 img{
+
+.produtos3 img {
     height: 230px;
     position: relative;
     left: 30px;
     top: 15px;
 }
-.produtos3 h2{
+
+.produtos3 h2 {
     position: relative;
     left: 50px;
     top: 5px;
 }
-.produtos3 h4{
+
+.produtos3 h4 {
     position: relative;
     left: 50px;
     top: 5px;
     color: #e00908;
 }
-.produtos3 button{
+
+.produtos3 button {
     top: 5px;
     position: relative;
     font-size: 20px;
@@ -378,7 +398,8 @@ footer p{
     border-radius: 10px;
     background-color: #00FF1A;
 }
-.produtos4{
+
+.produtos4 {
     border: 1px solid black;
     height: 400px;
     width: 300px;
@@ -388,22 +409,26 @@ footer p{
     border-radius: 15px;
     background-color: #D9D9D980;
 }
-.produtos4 img{
+
+.produtos4 img {
     height: 250px;
     position: relative;
     left: 20px;
 }
-.produtos4 h2{
+
+.produtos4 h2 {
     position: relative;
     left: 50px;
 }
-.produtos4 h4{
+
+.produtos4 h4 {
     position: relative;
     left: 50px;
     top: -10px;
     color: #e00908;
 }
-.produtos4 button{
+
+.produtos4 button {
     top: -10px;
     position: relative;
     font-size: 20px;
@@ -411,8 +436,11 @@ footer p{
     border-radius: 10px;
     background-color: #00FF1A;
 }
+
+
 /* produtos acaba aqui */
-.entregas h1{
+
+.entregas h1 {
     font-size: 50px;
     text-align: center;
     font-style: italic;
@@ -420,7 +448,8 @@ footer p{
     margin-top: 200px;
     margin-left: 175px;
 }
-.entregas p{
+
+.entregas p {
     font-size: 25px;
     text-align: left;
     font-style: italic;
@@ -431,7 +460,8 @@ footer p{
     width: 450px;
     word-wrap: break-word;
 }
-.entregas a{
+
+.entregas a {
     position: relative;
     top: 415px;
     left: 520px;
@@ -440,7 +470,8 @@ footer p{
     color: black;
     font-size: 20px;
 }
-.devolucoes h1{
+
+.devolucoes h1 {
     font-size: 50px;
     text-align: center;
     font-style: italic;
@@ -448,7 +479,8 @@ footer p{
     margin-top: 170px;
     margin-left: 703px;
 }
-.devolucoes p{
+
+.devolucoes p {
     font-size: 25px;
     text-align: left;
     font-style: italic;
@@ -459,7 +491,8 @@ footer p{
     width: 460px;
     word-wrap: break-word;
 }
-.devolucoes a{
+
+.devolucoes a {
     position: relative;
     top: 415px;
     left: 1120px;
@@ -467,7 +500,8 @@ footer p{
     font-size: 20px;
     color: black;
 }
-.devolucoesmais h3{
+
+.devolucoesmais h3 {
     font-size: 25px;
     text-align: center;
     font-style: italic;
@@ -479,7 +513,8 @@ footer p{
     width: 800px;
     word-wrap: break-word;
 }
-.devolucoesmais p{
+
+.devolucoesmais p {
     font-size: 20px;
     text-align: left;
     font-style: italic;
@@ -490,12 +525,14 @@ footer p{
     width: 500px;
     word-wrap: break-word;
 }
-.devolucoesmais img{
+
+.devolucoesmais img {
     position: absolute;
     margin-top: 140px;
     margin-left: 900px;
 }
-.entregasmais h3{
+
+.entregasmais h3 {
     font-size: 30px;
     text-align: center;
     font-style: italic;
@@ -507,7 +544,8 @@ footer p{
     width: 600px;
     word-wrap: break-word;
 }
-.entregasmais p{
+
+.entregasmais p {
     font-size: 20px;
     text-align: left;
     font-style: italic;
@@ -518,12 +556,14 @@ footer p{
     width: 500px;
     word-wrap: break-word;
 }
-.entregasmais img{
+
+.entregasmais img {
     position: relative;
     margin-left: 800px;
     margin-top: 130px;
 }
-.politicas p{
+
+.politicas p {
     font-size: 25px;
     text-align: left;
     font-style: italic;
@@ -534,7 +574,8 @@ footer p{
     width: 700px;
     word-wrap: break-word;
 }
-.termos{
+
+.termos {
     font-size: 25px;
     text-align: left;
     font-style: italic;
@@ -544,10 +585,12 @@ footer p{
     padding: 10px;
     width: 700px;
     word-wrap: break-word;
- }
- /* login acaba aqui */
- 
- .contato{
+}
+
+
+/* login acaba aqui */
+
+.contato {
     position: relative;
     top: 130px;
     left: 20px;
@@ -559,9 +602,9 @@ footer p{
     padding: 24px;
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 8px #24242480;
- }
-form{
-    
+}
+
+form {
     width: 100%;
     height: 250px;
     display: flex;
@@ -570,7 +613,145 @@ form{
     align-items: center;
     justify-content: center;
 }
-.contato-text{
+
+.contato-text {
     position: relative;
     left: 25px;
+}
+
+.tenis {
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tenis .foto {
+    width: 590px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.tenis .foto img {
+    width: 100%;
+}
+
+.fotoGrande {
+    width: 470px;
+    height: 470px;
+    overflow: hidden;
+}
+
+.fotoGrande img {
+    width: 100%;
+    transition: .3s;
+}
+
+.fotoGrande img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.fotoPequena {
+    width: 120px;
+}
+
+.fotoPequena .fotos {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.fotoPequena .fotos img {
+    width: 100%;
+}
+
+.comprar {
+    width: 590px;
+}
+
+.comprar h1 {
+    width: 100%;
+}
+
+.comprar h2 {
+    font-size: 40px;
+}
+
+.comprar p.pix {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.comprar p.parcela {
+    font-size: 14px;
+    font-weight: 400;
+    color: #464646;
+}
+
+.comprar h3 {
+    margin-top: 16px;
+}
+
+.comprar .cores {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.comprar .cores .cor {
+    width: 100px;
+    height: 100px;
+    background-color: #dbdbdb;
+}
+
+.tamanho {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    padding: 16px 0;
+}
+
+.tamanho input {
+    display: none;
+}
+
+.tamanho label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 30px;
+    background-color: #aeceff;
+    border-radius: 8px;
+}
+
+.tamanho input:checked+label {
+    background-color: red;
+}
+
+.tenis button {
+    width: 200px;
+    height: 32px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    outline: none;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+.carrinho {
+    background-color: #fafafa;
+    border: 1px solid #242424;
+}
+
+.comprarAgora {
+    background-color: lightgreen;
+    border: 1px solid green;
 }
