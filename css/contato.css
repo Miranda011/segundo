@@ -10,7 +10,7 @@ input[type=email]{
 input[type=submit]{
     position: relative;
     top: 20px;
-    right: 35%;
+    right: 30%;
     border-radius: 10px;
     height: 50px;
     width: 100px;
@@ -18,21 +18,26 @@ input[type=submit]{
 input[type=reset]{
     position: relative;
     top: -15px;
-    left: 1%;
+    left: 15%;
     border-radius: 10px;
     height: 50px;
     width: 100px;
 }
 textarea{
     border: none;
-    width: 300px;
+    width: 250px;
     height: 900px;
     border-radius: 5px;
     resize: none;
+    position: relative;
+    left: 10px;
 }
 .maps iframe{
     position: relative;
-    left: 700px;
-    top: -320px;
+    left: 650px;
+    top: -290px;
     border-radius: 20px;
+}
+.contato-text{
+    display: contents;
 }

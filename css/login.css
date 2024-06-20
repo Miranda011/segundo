@@ -28,7 +28,7 @@ label{
 }
 .esqueci-senha{
     position: relative;
-    top: -50px;
+    top: -30px;
 }
 input[type=text],
 input[type=password]{
@@ -44,9 +44,13 @@ input[type=submit]{
     height: 32px;
     border-radius: 4px;
     border: none;
+    position: relative;
+    top: -30px;
 }
 label{
     font-size: 14px;
+    position: relative;
+    top: -10%;
 }
 a{
     text-decoration: none;
@@ -58,15 +62,15 @@ input[type=password]:focus{
 }
 .login-informe{
     position: relative;
-    top: 20px;
-    right: 50px;
+    top: 10px;
+    right: 25px;
 }
 .login-senha{
     position: relative;
-    top: -25px;
-    right: 85px;
+    top: -15px;
+    right: 55px;
 }
 input[type=password]{
     position: relative;
-    top: -50px;
+    top: -30px;
 }
