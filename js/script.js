@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 
-
+    //outro codigo 
     window.addEventListener('click', (event) => {
         if (!menuIcon.contains(event.target) && !dropdownMenu.contains(event.target)) {
             dropdownMenu.style.display = 'none';
