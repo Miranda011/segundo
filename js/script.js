@@ -24,6 +24,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 const foto = document.getElementById('tenisGrande')
 
 function trocaFoto(value) {
-    foto.src = `icons/${value}`
+    foto.src = `img/${value}`
     console.log(value)
 }
