@@ -22,8 +22,8 @@ body {
 
 .perfil-de-usuario img {
     position: relative;
-    left: 87%;
-    top: -70px;
+    left: 94%;
+    top: -150px;
     height: 25px;
 }
 
@@ -48,8 +48,8 @@ i {
     cursor: pointer;
     padding: 10px;
     position: relative;
-    left: 87%;
-    top: -75px;
+    left: 94%;
+    top: -152px;
 }
 
 .dropdown-menu {
@@ -180,13 +180,13 @@ footer p {
 
 .produtos1 h2 {
     position: relative;
-    left: 50px;
+    left: 75px;
 }
 
 .produtos1 h4 {
     position: relative;
-    left: 50px;
-    top: -10px;
+    left: 75px;
+    top: -5px;
     color: #e00908;
 }
 
@@ -194,8 +194,10 @@ footer p {
     top: -5px;
     position: relative;
     font-size: 20px;
-    left: 70px;
-    border-radius: 10px;
+    left: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
     background-color: #00FF1A;
 }
 
@@ -220,22 +222,24 @@ footer p {
 
 .produtos2 h2 {
     position: relative;
-    left: 50px;
+    left: 90px;
 }
 
 .produtos2 h4 {
     position: relative;
-    left: 50px;
-    top: -10px;
+    left: 90px;
+    top: -5px;
     color: #e00908;
 }
 
 .produtos2 button {
-    top: -10px;
+    top: -5px;
     position: relative;
     font-size: 20px;
-    left: 70px;
-    border-radius: 10px;
+    left: 50px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
     background-color: #00FF1A;
 }
 
@@ -260,13 +264,13 @@ footer p {
 
 .produtos3 h2 {
     position: relative;
-    left: 50px;
+    left: 80px;
     top: 5px;
 }
 
 .produtos3 h4 {
     position: relative;
-    left: 50px;
+    left: 80px;
     top: 5px;
     color: #e00908;
 }
@@ -275,8 +279,10 @@ footer p {
     top: 5px;
     position: relative;
     font-size: 20px;
-    left: 70px;
-    border-radius: 10px;
+    left: 50px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
     background-color: #00FF1A;
 }
 
@@ -300,22 +306,24 @@ footer p {
 
 .produtos4 h2 {
     position: relative;
-    left: 50px;
+    left: 80px;
 }
 
 .produtos4 h4 {
     position: relative;
-    left: 50px;
-    top: -10px;
+    left: 80px;
+    top: -5px;
     color: #e00908;
 }
 
 .produtos4 button {
-    top: -10px;
+    top: -5px;
     position: relative;
     font-size: 20px;
-    left: 70px;
-    border-radius: 10px;
+    left: 50px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
     background-color: #00FF1A;
 }
 
@@ -345,8 +353,8 @@ footer p {
 
 .entregas a {
     position: relative;
-    top: 415px;
-    left: 520px;
+    top: 430px;
+    left: 300px;
     font-style: italic;
     text-decoration: none;
     color: black;
@@ -376,8 +384,8 @@ footer p {
 
 .devolucoes a {
     position: relative;
-    top: 415px;
-    left: 1120px;
+    top: 429px;
+    left: 870px;
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -644,4 +652,93 @@ button:hover {
 .comprarAgora {
     background-color: lightgreen;
     border: 1px solid green;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.form button {
+    border: none;
+    background: none;
+    color: #8b8ba7;
+}
+
+.form {
+    --timing: 0.3s;
+    --width-of-input: 200px;
+    --height-of-input: 40px;
+    --border-height: 2px;
+    --input-bg: #fff;
+    --border-color: #2f2ee9;
+    --border-radius: 30px;
+    --after-border-radius: 1px;
+    position: relative;
+    width: 500px;
+    height: var(--height-of-input);
+    display: flex;
+    align-items: center;
+    padding-inline: 0.8em;
+    border-radius: var(--border-radius);
+    transition: border-radius 0.5s ease;
+    background: var(--input-bg, #fff);
+    top: -110px;
+    left: 30%;
+}
+
+.input {
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+}
+
+.form:before {
+    content: "";
+    position: absolute;
+    background: var(--border-color);
+    transform: scaleX(0);
+    transform-origin: center;
+    width: 100%;
+    height: var(--border-height);
+    left: 0;
+    bottom: 0;
+    border-radius: 1px;
+    transition: transform var(--timing) ease;
+}
+
+.form:focus-within {
+    border-radius: var(--after-border-radius);
+}
+
+input:focus {
+    outline: none;
+}
+
+.form:focus-within:before {
+    transform: scale(1);
+}
+
+.reset {
+    border: none;
+    background: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+input:not(:placeholder-shown)~.reset {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form svg {
+    width: 17px;
+    margin-top: 3px;
 }

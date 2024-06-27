@@ -40,10 +40,12 @@ textarea {
     left: 10px;
 }
 
-.maps iframe {
+iframe {
     position: relative;
     left: 650px;
     top: -290px;
+    width: 600px;
+    height: 450px;
     border-radius: 20px;
 }
 
