@@ -55,7 +55,7 @@ i {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #33333380;
+    background-color: #D9D9D950;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     left: 93%;
@@ -64,14 +64,14 @@ i {
 }
 
 .dropdown-menu a {
-    color: white;
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-menu a:hover {
-    background-color: #333333;
+    background-color: #D9D9D9;
 }
 
 .banner img {
@@ -507,6 +507,8 @@ form {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    position: relative;
+    top: 70px;
 }
 
 .tenis .foto {
@@ -551,6 +553,9 @@ form {
 
 .comprar {
     width: 590px;
+    position: relative;
+    left: 50px;
+    top: -20px;
 }
 
 .comprar h1 {
