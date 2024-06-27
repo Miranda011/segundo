@@ -48,8 +48,8 @@ input[type=submit] {
     background-color: #00FF1A;
     width: 250px;
     height: 52px;
-    font-size: 20px;
-    border-radius: 4px;
+    font-size: 15px;
+    border-radius: 10px;
     border: none;
     position: relative;
     top: -30px;
@@ -86,4 +86,10 @@ input[type=password]:focus {
 input[type=password] {
     position: relative;
     top: -30px;
+}
+
+.logintext {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
 }
