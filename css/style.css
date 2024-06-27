@@ -742,3 +742,19 @@ input:not(:placeholder-shown)~.reset {
     width: 17px;
     margin-top: 3px;
 }
+
+.painel1 .produtos1:hover {
+    border: 1px rgb(255, 49, 49) solid;
+}
+
+.painel2 .produtos2:hover {
+    border: 1px rgb(255, 49, 49) solid;
+}
+
+.painel3 .produtos3:hover {
+    border: 1px rgb(255, 49, 49) solid;
+}
+
+.painel4 .produtos4:hover {
+    border: 1px rgb(255, 49, 49) solid;
+}

@@ -1,4 +1,1 @@
-# segundo-site
-# segundo-site-atualizoes
-# segundo-site-atualizoes
-# segundo
+sprint um site criado com fins educacionais
